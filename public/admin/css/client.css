@@ -1,0 +1,48 @@
+.testTextContent {
+	font-size: 22px;
+	font-weight: bold;
+	margin-left: 120px;
+	margin-top: -10px;
+	color: blue;
+}
+.clearfix {
+	clear: both;
+}
+
+#main-menu {
+	margin-top: 10px;
+}
+
+#main-menu ul {
+	font-size: 13px;
+	font-weight: bold;
+	background-color: blue;
+	width: 100%;
+	margin: auto;
+	padding: 4px 10px;
+	list-style: none;
+    float: left;
+}
+
+#main-menu ul li{
+	background-color: green;
+}
+
+#main-menu a{
+	color: #fff;
+	text-decoration: none;
+	padding: 4px 15px;
+}
+
+.top-content {
+	text-align: center;
+}
+
+.main-content {
+	font-size: 12px;
+	margin-top: 15px;
+}
+
+.main-content thead {
+	background: blue;
+}
