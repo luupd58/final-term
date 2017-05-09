@@ -38,7 +38,7 @@ class TestController extends Controller
      */
     public function searchClient(Request $request)
     {
-        $search = $request->input('search-client');
+        $search = $request->input('keysearch');
         $result = $this->_model->searchId($search)->get();
         foreach ($result as $key => $value) {
             // Lấy ra array product_type dựa vào belongsTo
